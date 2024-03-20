@@ -34,6 +34,43 @@ h1 {
     color: blue;
 }
 
+#navbar{
+    overflow: hidden;
+    background-color: rgb(107, 106, 106);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbar > a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 5vh;
+}
+#navbar > a:hover{
+    background-color: aqua;
+}
+#home{
+    float: left;
+}
+#home-icon{
+    height: 100%;
+}
+#resume{
+    float: right;
+}
+#projects{
+    float: right;
+    margin-left: 25px;
+}
+
+.content{
+    padding-top: 20px;
+}
+
 @media (max-width: 900px) {
     .hero-section {
         align-items: center;
