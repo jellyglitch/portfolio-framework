@@ -3,7 +3,13 @@ html, body {
     height:100%;
 }
 
-h1 {
+.content{
+    padding-top: 20px;
+}
+
+/********** HERO *********/
+
+.hero-title {
     margin: 0;
     padding: 0;
 }
@@ -32,6 +38,22 @@ h1 {
     padding-top: 2rem;
     color: blue;
 }
+
+@media (max-width: 800px) {
+    .hero-section {
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 6rem 0 0;
+        height: 70vh;
+    }
+
+    .hero-text {
+        padding-top: 1rem;
+    }
+}
+
+/********** NAVBAR *********/
 
 #navbar{
     overflow: hidden;
@@ -64,23 +86,4 @@ h1 {
 #projects{
     float: right;
     margin-left: 25px;
-}
-
-.content{
-    padding-top: 20px;
-}
-
-@media (max-width: 900px) {
-    .hero-section {
-        align-items: center;
-        flex-direction: column;
-        gap: 1rem;
-        padding: 6rem 0 0;
-        
-        height: 70vh;
-    }
-
-    .hero-text {
-        padding-top: 1rem;
-    }
 }
