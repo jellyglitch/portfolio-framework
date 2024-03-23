@@ -76,6 +76,7 @@ html, body {
 }
 #home{
     float: left;
+    margin-left: 25px;
 }
 #home-icon{
     height: 100%;
@@ -86,4 +87,5 @@ html, body {
 #projects{
     float: right;
     margin-left: 25px;
+    margin-right: 25px;
 }
