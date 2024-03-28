@@ -165,3 +165,29 @@ body {
 .resume.skills{
     background-color: pink;
 }
+
+/******************FOOTER***********************/
+
+.footer{
+    overflow: hidden;
+    background-color: rgb(206, 0, 0);
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > a{
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+}
+.footer > a:hover{
+    background-color: aqua;
+}
