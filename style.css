@@ -191,3 +191,18 @@ body {
 .footer > a:hover{
     background-color: aqua;
 }
+
+.linkedin-a{
+    margin-right: 20px;
+}
+.linkedin-svg{
+    height: 100%;
+    fill: white;
+}
+.github-a{
+    overflow: visible;
+    margin-left: 20px;
+}
+.github-svg{
+    height: 100%;
+}
