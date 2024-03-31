@@ -216,4 +216,5 @@ body {
     display: flex;
     flex-flow: column;
     align-items: flex-end;
+    padding-bottom: 8px;
 }
