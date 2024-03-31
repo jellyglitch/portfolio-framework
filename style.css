@@ -167,10 +167,13 @@ body {
 }
 
 /******************FOOTER***********************/
-
-.footer{
-    overflow: hidden;
+.footer-div{
     background-color: rgb(206, 0, 0);
+}
+
+.footer-links{
+    overflow: hidden;
+    /*background-color: rgb(206, 0, 0);*/
     width: 100%;
 
     display: flex;
@@ -178,7 +181,7 @@ body {
     align-items: center;
 }
 
-.footer > a{
+.footer-links > a{
     text-decoration: none;
     color: white;
     padding-top: 10px;
@@ -188,7 +191,7 @@ body {
     display: flex;
     align-items: center;
 }
-.footer > a:hover{
+.footer-links > a:hover{
     background-color: aqua;
 }
 
@@ -205,4 +208,12 @@ body {
 }
 .github-svg{
     height: 100%;
+}
+
+.copyright > p{
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
 }
