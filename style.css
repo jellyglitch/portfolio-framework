@@ -89,14 +89,19 @@ body {
 }
 #resume{
     float: right;
-}
-#projects{
-    float: right;
     margin-left: 25px;
     margin-right: 25px;
 }
+#projects{
+    float: right;
+}
 
 /********** FEATURED PROJECTS *********/
+
+#projects-jumplink-div{
+    padding-top: 50px;
+    margin-top: -50px;
+}
 
 .project-heading {
     margin: 1rem 3rem;
