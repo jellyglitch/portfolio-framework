@@ -165,10 +165,19 @@ body {
     flex-flow: column;
     align-items: center;
     background-color: white;
+    padding: 10px;
 }
 
 .resume.skills{
     background-color: pink;
+}
+
+@media screen and (max-width: 800px) {
+    .resume-section{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
 }
 
 /******************FOOTER***********************/
