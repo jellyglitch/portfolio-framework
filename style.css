@@ -74,7 +74,8 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     height: 5vh;
 }
 #navbar > a:hover{
@@ -89,14 +90,19 @@ body {
 }
 #resume{
     float: right;
-}
-#projects{
-    float: right;
     margin-left: 25px;
     margin-right: 25px;
 }
+#projects{
+    float: right;
+}
 
 /********** FEATURED PROJECTS *********/
+
+#projects-jumplink-div{
+    padding-top: 50px;
+    margin-top: -50px;
+}
 
 .project-heading {
     margin: 1rem 3rem;
@@ -204,4 +210,79 @@ body {
     color: white;
     padding-bottom: 1rem;
     margin: 0 3rem;
+}
+
+    /********** RESUME *********/
+
+.resume-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 25px;
+    word-break: break-word;
+}
+
+.resume{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: white;
+}
+
+.resume.skills{
+    background-color: pink;
+}
+
+/******************FOOTER***********************/
+.footer-div{
+    background-color: rgb(206, 0, 0);
+}
+
+.footer-links{
+    overflow: hidden;
+    /*background-color: rgb(206, 0, 0);*/
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links > a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+}
+.footer-links > a:hover{
+    background-color: aqua;
+}
+
+.linkedin-a{
+    margin-right: 20px;
+}
+.linkedin-svg{
+    height: 100%;
+    fill: white;
+}
+.github-a{
+    overflow: visible;
+    margin-left: 20px;
+}
+.github-svg{
+    height: 100%;
+}
+
+.copyright > p{
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 8px;
 }
