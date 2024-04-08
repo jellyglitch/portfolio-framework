@@ -8,7 +8,7 @@ body {
 }
 
 .content{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 /********** HERO *********/
@@ -294,4 +294,54 @@ body {
     flex-flow: column;
     align-items: center;
     padding-bottom: 8px;
+}
+
+/****************************Project-Page-Parts******************************/
+/********** PROJECT PAGE NAVBAR *********/
+#category-1{
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#category-2{
+    float: right;
+}
+/********** PROJECT PAGE TITLE ***********/
+.project-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+/********* PROJECT PAGE MAIN IMAGE *************/ 
+.image-section{
+    display: grid;
+    padding-bottom: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+}
+
+.main-image{ 
+    aspect-ratio: auto;
+    grid-column: 2/5;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/*just use grid here instead. but for now it shows general layout*/
+.description-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    color: white;
+}
+.main-description{
+    font-size: x-large;
+}
+.secondary-description{
+    font-size: medium;
+}
+
+.gallery-section{ /*This will be a grid of images with no writing for a gallery*/
+    display: grid;
 }
