@@ -217,7 +217,7 @@ body {
         transition: transform 400ms ease;
     }
 }
-
+/* ALL PROJECTS*/
 .allprojects-btn {
     display: flex;
     justify-content: flex-end;
@@ -254,6 +254,17 @@ body {
 .allprojects-item:hover .project-content > * {
     opacity: 1;
 }
+
+    /**********ALL PROJECTS NAVBAR**********/
+#other-projects-navbar{
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#featured-navbar{
+    float: right;
+}
+
 
     /********** RESUME *********/
 
@@ -338,3 +349,4 @@ body {
     align-items: center;
     padding-bottom: 8px;
 }
+
