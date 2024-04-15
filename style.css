@@ -298,13 +298,13 @@ body {
 
 /****************************Project-Page-Parts******************************/
 /********** PROJECT PAGE NAVBAR *********/
-#category-1{
+#gallery-navbar{
     float: right;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-#category-2{
+#description-navbar{
     float: right;
 }
 /********** PROJECT PAGE TITLE ***********/
@@ -359,13 +359,31 @@ body {
 
 .gallery-image{ 
     min-width: 40%;
-    max-width: 70%;
+    max-width: 50%;
     object-fit: contain;
+
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+
+.gallery-section label{
+    display:contents;
+}
+.gallery-section input[type=checkbox]{
+    display: none;
+}
+.gallery-section input[type=checkbox]:checked~img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+    cursor: zoom-out;
+    padding: 100%;
 }
 
 @media screen and (max-width: 800px) {
     .gallery-image{ 
-        min-width: 90%;
+        min-width: 70%;
         object-fit: contain;
     }
 }
