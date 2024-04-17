@@ -3,36 +3,23 @@
     <head lang="en">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <title>My Projects</title>
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
-        <!----------Navigation Bar---------->
         <div id="navbar">
-            <a id="home" href="#content-div">
+            <a id="home" href="../index.html">
                 <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" id="home-icon" class="bi bi-house" viewBox="0 0 16 16">
                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
                 </svg>
             </a>
-            <a id="resume" href="#resume-div">Resume</a>
-            <a id="projects" href="#projects-jumplink-div">Projects</a>
+            <a id="other-projects-navbar" href="#other-projects-jumplink-div">Other Projects</a>
+            <a id="featured-navbar" href="#featured-jump">Featured</a>
         </div>
 
         <div class="content" id="content-div">
-            <!----------HERO---------->
-            <div class="hero-section">
-                <div class="hero-image">
-
-                </div>
-                <div class="hero-text">
-                    <h1 class="hero-title">Hi, I'm [name]!</h1>
-                    <p>Welcome to my portfolio.</p>
-                </div>
-            </div>
-
-            <!----------FEATURED PROJECTS---------->
-            <h1 class="project-heading">Featured Projects</h1>
-            <div id="projects-jumplink-div" class="featured-section">
+            <h1 id="featured-jump" class="project-heading">Featured</h1>
+            <div class="featured-section">
                 <ul class="featuredprojects__list">
                     <li class="featuredprojects__item card1">
                         <div class="background1"></div>
@@ -90,32 +77,60 @@
                     
                 </ul>
             </div>
-            <a href="public/all-projects.html" class="allprojects-btn">See all projects</a>
-            <!------------------RESUME------------------------>
-            <div class="resume-section" id="resume-div">
-                <div class="resume skills">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li><h4>Computer Languages</h4></li>
-                        <ul><li>JavaScript, HTML, CSS</li></ul>
-                        
-                    </ul>
+            
+            <div id="other-projects-jumplink-div" class="all-projects">
+                <h1 class="project-heading">Other projects</h1>
+                <ul class="allprojects-list">
+                    <li class="allprojects-item">
+                        <div class="background1"></div>
+                        <div class="project-content">
+                            <div class="project-titles">
+                                <h1>Project 1</h1>
+                                <h2>Project type</h2>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Ut dui lorem, sollicitudin auctor viverra sit amet, posuere eget leo. 
+                                Integer malesuada diam vitae orci porttitor eleifend. 
+                                Donec in lacus maximus nulla imperdiet dignissim. 
+                                In in mi eu ligula tincidunt maximus at quis urna. 
+                            </p>
+                        </div>
+                    </li>
+                    <li class="allprojects-item">
+                        <div class="background1"></div>
+                        <div class="project-content">
+                            <div class="project-titles">
+                                <h1>Project 1</h1>
+                                <h2>Project type</h2>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Ut dui lorem, sollicitudin auctor viverra sit amet, posuere eget leo. 
+                                Integer malesuada diam vitae orci porttitor eleifend. 
+                                Donec in lacus maximus nulla imperdiet dignissim. 
+                                In in mi eu ligula tincidunt maximus at quis urna. 
+                            </p>
+                        </div>
+                    </li>
+                    <li class="allprojects-item">
+                        <div class="background1"></div>
+                        <div class="project-content">
+                            <div class="project-titles">
+                                <h1>Project 1</h1>
+                                <h2>Project type</h2>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Ut dui lorem, sollicitudin auctor viverra sit amet, posuere eget leo. 
+                                Integer malesuada diam vitae orci porttitor eleifend. 
+                                Donec in lacus maximus nulla imperdiet dignissim. 
+                                In in mi eu ligula tincidunt maximus at quis urna. 
+                            </p>
+                        </div>
+                    </li>
                 </div>
-                <div class="resume education">
-                    <h2>Education</h2>
-                    <ul>
-                        <li>University of Manitoba: September 2017-2023 </li>
-                        <p>some more stuff</p>
-                        <li>Other Education</li>
-                        <p>Some more stuff</p>
-                    </ul>
-                </div>
-                <div class="resume"><p>thing</p></div>
-                <div class="resume"><p>thing tthat is heeerreeee  need to fill uuup some spaaaaaace</p></div>
-                <div class="resume"><p>Ultricies lacus sed turpis tincidunt id aliquet risus feugiat in. Gravida neque convallis a cras semper auctor neque. Interdum consectetur libero id faucibus nisl tincidunt. Accumsan lacus vel facilisis volutpat est. Pharetra magna ac placerat vestibulum lectus. Odio eu feugiat pretium nibh ipsum consequat. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Viverra vitae congue eu consequat ac felis. Vulputate ut pharetra sit amet aliquam id diam maecenas. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Diam volutpat commodo sed egestas. Est velit egestas dui id ornare arcu. Enim facilisis gravida neque convallis a cras. Magnis dis parturient montes nascetur. Non odio euismod lacinia at quis risus.</p></div>
             </div>
-
-            <!------------------FOOTER------------------------>
             <div class="footer-div">
                 <div class="footer-links">
                     <!--put your own link in href-->
